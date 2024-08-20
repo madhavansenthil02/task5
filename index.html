@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <p>"Please fill out the form below to register as a student"</p>
+    <form action="">
+        <div>
+            <label for="name">Full Name : </label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth : </label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="no">Phone Number : </label>
+            <input type="number" name="no" id="no">
+        </div>
+        <br>
+        <div>
+            <label for="">Gender : </label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <br>
+        <div>
+            <label for="">Courses Interested : </label>
+            <label for="box1">HTML</label>
+            <input type="checkbox" name="html" id="box1">
+            <label for="box2">CSS</label>
+            <input type="checkbox" name="css" id="box2">
+            <label for="box3">Javascript</label>
+            <input type="checkbox" name="javascript" id="box3">
+        </div>
+        <br>
+        <div>
+            <label for="textarea">Comments : </label>
+            <textarea name="textarea" id="textarea"></textarea>
+        </div>
+        <br>
+        <button>Register</button>
+    </form>
+    <br>
+    <hr>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <h1>List of Registered students :</h1>
+            <tr>
+                <th>Student ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Phone Number</th>
+                <th>Gender</th>
+                <th>Courses Interested</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>213364</td>
+                    <td>Siva R</td>
+                    <td>siva@123</td>
+                    <td>02/04/2003</td>
+                    <td>7865746446</td>
+                    <td>Male</td>
+                    <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>564543</td>
+                    <td>Monica D</td>
+                    <td>monicasri@02</td>
+                    <td>06/09/2001</td>
+                    <td>9756457860</td>
+                    <td>Female</td>
+                    <td>HTML, CSS, Javascript</td>
+                </tr>
+                <tr>
+                    <td>876897</td>
+                    <td>Dhivya A</td>
+                    <td>dhivyaadthiya@1234</td>
+                    <td>11/03/2002</td>
+                    <td>8767659087</td>
+                    <td>Female</td>
+                    <td>Javascript</td>
+                </tr>
+                <tr>
+                    <td>546543</td>
+                    <td>Manoj K</td>
+                    <td>manojkumar@666</td>
+                    <td>11/01/2004</td>
+                    <td>8097678987</td>
+                    <td>Male</td>
+                    <td>CSS, Javascript</td>
+                </tr>
+                <tr>
+                    <td>123432</td>
+                    <td>Karthik M</td>
+                    <td>alliyas@324</td>
+                    <td>21/05/1999</td>
+                    <td>7658678899</td>
+                    <td>Male</td>
+                    <td>HTML, Javascript</td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>
